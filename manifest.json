@@ -1,19 +1,35 @@
 {
-    "name": "Casavida menu",
-    "short_name": "Menu",
+    "name": "casavida",
+    "short_name": "casavida",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#F2EEE7",
-    "theme_color": "#F2EEE7",
-    "description": "Casavida Menu",
+    "background_color": "#0175C2",
+    "theme_color": "#0175C2",
+    "description": "The admin panel for casavida Restaurant.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "icons/Logo.png",
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
             "sizes": "512x512",
             "type": "image/png",
-            "purpose": "any maskable"
+            "purpose": "maskable"
         }
     ]
 }
